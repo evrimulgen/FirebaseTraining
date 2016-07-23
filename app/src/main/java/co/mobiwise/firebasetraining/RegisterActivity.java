@@ -3,7 +3,6 @@ package co.mobiwise.firebasetraining;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -48,22 +47,6 @@ public class RegisterActivity extends AppCompatActivity {
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
 
-        // you can validate from.
-        if (TextUtils.isEmpty(email)) {
-            Toast.makeText(getApplicationContext(), "missing email address!", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        if (TextUtils.isEmpty(password)) {
-            Toast.makeText(getApplicationContext(), "missing password!", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        if (password.length() < 6) {
-            Toast.makeText(getApplicationContext(), "Password too short, enter minimum 6 characters!", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
         showProgress();
 
         //create user
@@ -86,7 +69,6 @@ public class RegisterActivity extends AppCompatActivity {
                         }
                     }
                 });
-
     }
 
     private void showProgress() {

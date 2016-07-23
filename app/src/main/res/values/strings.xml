@@ -17,4 +17,5 @@
     <string name="reset_password">Reset Password</string>
     <string name="send_reset_password_email_success_message">We have sent you instructions to reset your password!</string>
     <string name="send_reset_password_email_error_message">Failed to send reset email!</string>
+    <string name="log_out">LOG OUT</string>
 </resources>
