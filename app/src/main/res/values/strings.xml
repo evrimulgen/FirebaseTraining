@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FirebaseTraining</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="hint_email">email</string>
+    <string name="hint_password">password</string>
+    <string name="hint_name">fullname</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="registration">Register</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="send_reset_password_email_success_message">We have sent you instructions to reset your password!</string>
+    <string name="send_reset_password_email_error_message">Failed to send reset email!</string>
+</resources>
