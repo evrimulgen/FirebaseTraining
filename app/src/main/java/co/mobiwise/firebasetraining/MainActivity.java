@@ -36,6 +36,11 @@ public class MainActivity extends BaseActivity {
         startActivity(new Intent(MainActivity.this, ResetPasswordActivity.class));
     }
 
+    @OnClick(R.id.firebase_update_email)
+    protected void userUpdateEmail() {
+        startActivity(new Intent(MainActivity.this, UpdateEmailActivity.class));
+    }
+
     @OnClick(R.id.firebase_log_out)
     protected void userLogout() {
         auth.signOut();

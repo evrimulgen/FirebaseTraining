@@ -18,4 +18,8 @@
     <string name="send_reset_password_email_success_message">We have sent you instructions to reset your password!</string>
     <string name="send_reset_password_email_error_message">Failed to send reset email!</string>
     <string name="log_out">LOG OUT</string>
+    <string name="update_email">Update email</string>
+    <string name="btn_update">Update</string>
+    <string name="update_email_success">Email address is updated.</string>
+    <string name="update_email_error">Failed to update email!</string>
 </resources>
