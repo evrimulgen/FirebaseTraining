@@ -7,3 +7,4 @@ This is an example project that demonstrates how simplified and easy to use fire
   - Forgot Password – Send Reset Password Email
   - User Log out.
   - Change/Update user email.
+  - Firebase Cloud Messaging.
