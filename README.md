@@ -8,3 +8,9 @@ This is an example project that demonstrates how simplified and easy to use fire
   - User Log out.
   - Change/Update user email.
   - Firebase Cloud Messaging.
+  - 
+  
+# Blog posts:
+
+  -https://medium.com/@muratcanbur/deal-with-it-push-notifications-in-android-using-fcm-f7623b8c3282
+
