@@ -13,4 +13,5 @@ This is an example project that demonstrates how simplified and easy to use fire
 # Blog posts:
 
   -https://medium.com/@muratcanbur/deal-with-it-push-notifications-in-android-using-fcm-f7623b8c3282
+  -https://medium.com/@yucelterlemezuglu/firebasee-giri%C5%9F-b85d1d225c28#.qq4ex8qc4
 
